@@ -1,0 +1,48 @@
+/**
+ * Theme Name: SEOWP
+ * Styles used to provide basic content styling
+ * when no required MegaMainMenu plugin installed.
+ *
+ * These styles are not used on normal theme work.
+ */
+
+.site-header.mega_main_menu-disabled {
+	background-color: rgba(255, 255, 255, 0.3);
+	border-bottom: 1px solid rgb(238, 238, 238);
+	min-height: 120px;
+	padding-top: 40px;
+}
+
+.site-header.mega_main_menu-disabled .default-header-content {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1200px;
+}
+
+.nomegamenu-logo {
+	display: inline-block;
+	margin-top: -12px;
+}
+
+.nomegamenu-logo a {
+	display: block;
+}
+
+.site-header.mega_main_menu-disabled .header-top-menu {
+	float: right;
+	margin-top: 6px;
+}
+
+.site-header.mega_main_menu-disabled .header-top-menu > ul > li {
+	display: inline-block;
+}
+
+.site-header.mega_main_menu-disabled .header-top-menu > ul > li > a {
+	padding-left: 16px;
+	padding-right: 16px;
+	color: rgba(0, 0, 0, 0.91);
+}
+
+.site-header.mega_main_menu-disabled .header-top-menu > ul > li > a:hover {
+	color: #56AEE3;
+}
